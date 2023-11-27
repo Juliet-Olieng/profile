@@ -1,0 +1,27 @@
+video{
+    width: 300px;
+    height: 300px;
+}
+/* h1{
+    color: #33ccff;
+    text-align: center;
+} */
+.sample{
+    margin-left: 2%;
+    display: flex;
+    gap: 3%;
+}
+.sample1{
+    width: 300px;
+    background-color: rgb(156, 151, 151);
+}
+.sample1 p{
+    text-align: center;
+}
+.proj{
+    border: solid  rgb(210, 206, 206);
+    margin-top: 5%;
+    border-radius: 5%;
+    padding: 3%;
+    width: 1000px; 
+}

@@ -1,0 +1,106 @@
+/* Navbar container */
+.navbar-container {
+    /* padding: 10px 150px; */
+    display: flex;
+    gap: 20%;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+    margin-left: 15%;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+/* Hamburger bars */
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(76, 38, 38);
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+/* Media query for displaying the hamburger icon */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+    }
+
+    /* Hide the list initially on smaller screens */
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        /* background-color: #333; */
+        width: 100%;
+        z-index: 1;
+        border-top: 1px solid white;
+    }
+
+    /* Show the list when menu is open */
+    .nav-list.open {
+        display: flex;
+    }
+
+    /* Adjust bar rotation for menu open state */
+    .menu-icon.open .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-4px, 6px);
+    }
+
+    .menu-icon.open .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-icon.open .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-4px, -6px);
+    }
+}
+
+/* Navigation links */
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* background-color: #333; */
+    width: 100%;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    color: green;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Navigation link hover effect */
+.nav-list li a:hover {
+    color: wheat;
+    border: none;
+    background-color: rgb(170, 193, 173);
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    padding: 20%;
+}
+
+/* Add media query for a better experience on smaller screens */
+@media (max-width: 480px) {
+    .nav-list li {
+        margin: 5px 0;
+    }
+}

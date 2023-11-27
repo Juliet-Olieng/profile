@@ -1,0 +1,5 @@
+.body{
+    display: flex;
+    margin-left: 10%;
+    gap: 10%;
+}
