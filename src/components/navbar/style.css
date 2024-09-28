@@ -1,15 +1,16 @@
-/* Navbar container */
 .navbar-container {
-    /* padding: 10px 150px; */
     display: flex;
-    gap: 20%;
+    padding-left: 10%;
     justify-content: space-between;
     align-items: center;
     color: green;
-    margin-left: 15%;
+    background-color: gray;
+    border-radius: 10px;
+}
+.navbar-container ul{
+    gap: 100px;
 }
 
-/* Hamburger menu icon */
 .menu-icon {
     display: none;
     flex-direction: column;

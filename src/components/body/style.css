@@ -1,5 +1,4 @@
 .body{
-    display: flex;
-    margin-left: 10%;
-    gap: 10%;
+    background-color: rgb(199, 190, 190);
+    background-size: cover;  
 }

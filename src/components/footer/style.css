@@ -1,0 +1,51 @@
+.footer{
+    padding-left: 10%;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.sidebar{
+
+  display: flex;
+  gap: 10%;
+}
+.footer h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sidebar .icons{
+    display: flex;
+    gap: 15%;
+    text-align: center;
+    align-items: center;
+}
+.sidebar p{
+    font-size: 12px;
+}
+.icon{
+    border-radius: 100%;
+    background-color: wheat;
+    /* box-shadow: 5px 5px  wheat; */
+    padding: 15%;
+    width: 40px;
+    height: 40px;
+    color: green;
+   
+}
+.icon1{
+    margin-left: 20%;
+    /* margin: 3%; */
+    
+
+}
+.icons{
+    /* margin-bottom: 5%; */
+}
+.m-icon{
+    width: 50px;
+    height: 50px;
+}

@@ -2,10 +2,7 @@ video{
     width: 300px;
     height: 300px;
 }
-/* h1{
-    color: #33ccff;
-    text-align: center;
-} */
+
 .sample{
     margin-left: 2%;
     display: flex;
@@ -14,14 +11,19 @@ video{
 .sample1{
     width: 300px;
     background-color: rgb(156, 151, 151);
+    border-radius: 5px;
+    padding: 2%;
 }
 .sample1 p{
     text-align: center;
 }
-.proj{
-    border: solid  rgb(210, 206, 206);
-    margin-top: 5%;
-    border-radius: 5%;
-    padding: 3%;
-    width: 1000px; 
+.sample1 p span{
+    color: green;
+}
+.proj h2{
+    margin-left: 5%; 
+}
+.proj h1{
+    text-align: center;
+    text-decoration: underline;
 }

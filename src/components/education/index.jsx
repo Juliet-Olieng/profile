@@ -3,13 +3,13 @@ import './style.css'
 
 const Education=()=>{
     return(
-        <div className="container-skills">
+        <div className="education">
             <div className="h1">
             <LiaSchoolSolid className="new-icon"/>
-            <h1>Education</h1>
+            <h1>EDUCATION</h1>
             </div>
             
-            <div>
+            <div className="p">
                 <h3>Akirachix Institute of Technology</h3>
                 <p>Jan 2023-Dec 2023</p>
                 <p>Diploma in Information Technology</p>
@@ -17,7 +17,7 @@ const Education=()=>{
             <hr />
             <div className="h1">
             <LiaSchoolSolid className="new-icon"/>
-            <h1>Skills</h1>
+            <h1>SKILLS</h1>
             </div>
             <div>
                 <h3>Frameworks</h3>
@@ -55,6 +55,10 @@ const Education=()=>{
                     <img src={process.env.PUBLIC_URL+"image/python.png"} alt="" />
                         <p>PYTHON</p>
                     </div>
+                    <div className="skill">
+                    <img src={process.env.PUBLIC_URL+"image/php.png"} alt="" />
+                        <p>PHP</p>
+                    </div>
 
                 </div>
                 </div>
@@ -62,17 +66,19 @@ const Education=()=>{
                 <div>
                 <h3>Database and others</h3>
                 <div className="skills">
-                    <div className="skill2">
+                    <div className="skill">
                     <img src={process.env.PUBLIC_URL+"image/mysql.png"} alt="" />
-                        <p>JavaScript</p>
+                        <p>MySQL</p>
                     </div>
-                    <div className="skill2">
+                    <div className="skill">
                     <img src={process.env.PUBLIC_URL+"image/git.png"} alt=""/>
-                        <p>HTML</p>
+                        <p>Git</p>
                     </div>
 
                 </div>
                 </div>
+                <hr />
+
         </div>
     )
 }

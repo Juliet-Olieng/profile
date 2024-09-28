@@ -17,10 +17,11 @@ const Navbar =()=>{
                 <div className="bar"></div>
             </div>
             <ul className={`nav-list ${menuOpen ? 'open' : ''}`}>
+            <li><a href="">Home</a></li>
                 <li><a href="../about">About Me</a></li>
                 <li><a href="">Resume</a></li>
                 <li><a href="">Contact me</a></li>
-                <li><a href="../projects">Projects</a></li>
+                <li><a href="/projects">Projects</a></li>
             </ul>
         </div>
         <div>
